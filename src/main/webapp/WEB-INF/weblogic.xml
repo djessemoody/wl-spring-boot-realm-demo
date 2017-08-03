@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wls:weblogic-web-app
+  xmlns:wls="http://xmlns.oracle.com/weblogic/weblogic-web-app"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app
+        http://xmlns.oracle.com/weblogic/weblogic-web-app/1.4/weblogic-web-app.xsd">
+  <wls:container-descriptor>
+    <wls:prefer-application-packages>
+      <wls:package-name>org.slf4j</wls:package-name>
+    </wls:prefer-application-packages>
+
+  </wls:container-descriptor>
+
+  <wls:security-role-assignment>
+    <wls:role-name>ROLE_USER</wls:role-name>
+    <wls:principal-name>ROLE_USER</wls:principal-name>
+  </wls:security-role-assignment>
+
+  <wls:session-descriptor>
+    <wls:cookie-name>SESSIONIDDEMO</wls:cookie-name>
+    <wls:cookie-path>/spring-sec</wls:cookie-path>
+    <wls:cookie-http-only>true</wls:cookie-http-only>
+    <wls:url-rewriting-enabled>true</wls:url-rewriting-enabled>
+  </wls:session-descriptor>
+
+
+</wls:weblogic-web-app>
