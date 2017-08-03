@@ -9,7 +9,7 @@ import org.springframework.web.WebApplicationInitializer;
 
 /***
  *  MOODYCODE.COM DEMO
- *  SETUP FOR WEBLOGIC DEPLOYED APPLICATION, WITH AN OVERRIDE FOR WebApplicationInitializer and extending
+ *  SETUP FOR WEBLOGIC DEPLOYED APPLICATION, WITH AN implement FOR WebApplicationInitializer and extending
  *  	SpringBootServletInitializer
  */
 
