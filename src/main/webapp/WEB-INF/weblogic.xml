@@ -18,8 +18,8 @@
 
   <wls:session-descriptor>
     <wls:cookie-name>SESSIONIDDEMO</wls:cookie-name>
-    <wls:cookie-path>/spring-sec</wls:cookie-path>
-    <wls:cookie-http-only>true</wls:cookie-http-only>
+    <wls:cookie-path>/</wls:cookie-path>
+    <wls:cookie-http-only>false</wls:cookie-http-only>
     <wls:url-rewriting-enabled>true</wls:url-rewriting-enabled>
   </wls:session-descriptor>
 
